@@ -1,4 +1,4 @@
-import ProjectCard from '@/components/ProjectCard'
+import ProjectCard from '../components/ProjectCard'
 import Link from 'next/link'
 import React from 'react'
 
@@ -8,7 +8,7 @@ function page() {
     <div className='container mx-auto px-4'>
       <div className='flex flex-wrap mx-4'>
         {/* Row 1 */}
-        <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
+        {/* <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
           <div className="w-full max-w-[570px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px] shadow-lg shadow-gray-300">
             <h3 className="text-white pb-2 text-xl font-bold sm:text-2xl">Job Harbor</h3>
             <span className="bg-indigo-500 mx-auto mb-6 inline-block h-1 w-[90px] rounded"></span>
@@ -21,7 +21,7 @@ function page() {
               <Link href='https://github.com/akshat-o5/Job-Harbor' className="bg-indigo-500 border-indigo-500 block w-full rounded-lg border p-3 text-center text-base font-medium text-white transition hover:bg-opacity-90">Source Code</Link>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
           <ProjectCard title="Movie Gallery API" description="Welcome to Movie Gallery API, your go-to source for accessing a vast collection of movies. Seamlessly browse through our extensive catalog, discover movie details, filter by genre, search by title, and explore related movies based on cast and genre." link1='https://documenter.getpostman.com/view/23129267/2sA2xmTVrx' link2='https://github.com/akshat-o5/Movie-Gallery-API' button="API Documentation" domain='Backend Web Development' />
         </div> */}
@@ -42,28 +42,28 @@ function page() {
         </div> */}
         {/* <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
           <ProjectCard title="Automart GraphQL API" description="This API provides access to a database of second-hand vehicles, allowing users to query and manipulate vehicle information. It offers endpoints to retrieve vehicle details based on various criteria such as type, brand, price range, and years of usage. Additionally, users can add, update, and delete vehicle entries in the database." link1='https://documenter.getpostman.com/view/23129267/2sA35Bd4zW' link2='https://github.com/akshat-o5/AutoMart-GraphQL-API' button="API Documentation" domain='Backend Web Development' />
-        </div> */}
-        {/* <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
+        </div>
+        <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
           <ProjectCard title="Literary-Lounge-API" description="At Literary Lounge, we believe in the transformative power of words and the endless possibilities that come with each turn of the page. Immerse yourself in our extensive collection of titles, where you'll discover timeless classics, contemporary bestsellers, and hidden gems waiting to be unearthed." link1='abc' link2='https://github.com/akshat-o5/Literary-Lounge-API' button="API Documentation" domain='Backend Web Development' />
         </div> */}
         {/* <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
           <ProjectCard title="Static Blog" description="This is a person Blog app Project. This app leverages the power of Next-js for the frontend. It uses renderiing of the markdown data into HTML for showcase of blogs. Also uses Tailwind CSS for styling and enhancement of the UI." link1='https://static-blog-beryl.vercel.app/' link2='https://github.com/akshat-o5/StaticBlog' button="Live Demo" domain='Frontend Web Development' />
         </div> */}
-        <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
+        {/* <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
           <ProjectCard title="Employee Management System" description="The Employee Management System is a web-based solution for efficient HR administration. It simplifies tasks like adding, updating, and removing employee records, managing departments and roles, and tracking essential details. With user-friendly interfaces, it streamlines data entry and retrieval, offering HR professionals a centralized platform for effective employee management." link1='https://documenter.getpostman.com/view/23129267/2s9YsJBCER' link2='https://github.com/akshat-o5/Employee-Management-System' button="API Documentation" domain='Full Stack Web Development' />
-        </div>
+        </div> */}
         {/* <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
           <ProjectCard title="Authentication API using Django Rest Framework" description="The authentication API, built on Django Rest Framework, leverages custom user models and Simple JWT for streamlined user management and secure access control. With robust features tailored to individual needs, it offers seamless registration, authentication, and token-based authorization, ensuring a reliable and scalable authentication solution for your application. Powered by Django's versatility and the efficiency of Simple JWT, this API simplifies user authentication while prioritizing security and flexibility." link1='https://documenter.getpostman.com/view/23129267/2s9YsKfrUe' link2='https://github.com/akshat-o5/Authentication-API' button="API Documentation" domain='Backend Web Development' />
         </div> */}
-        <div className='w-full <ProjectCard />sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
+        {/* <div className='w-full <ProjectCard />sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
           <ProjectCard title="Todo App Backend" description="A basic Todo App built with Flask and MySQL. Stay organized and boost your productivity with our intuitive ToDo app! Effortlessly manage tasks, set priorities, and track your progress with a user-friendly interface. Whether you're tackling work projects or personal goals, this app simplifies your day, helping you stay focused on what matters most." link1='https://documenter.getpostman.com/view/23129267/2s9YsKfrw9' link2='https://github.com/akshat-o5/Todo-App-Backend' button="API Documentation" domain='Full Stack Web Development' />
-        </div>
+        </div> */}
         {/* <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
           <ProjectCard title="Personal Portfolio" description="My personal portfolio website, built using HTML, CSS, and JavaScript, is a sleek and interactive platform to showcase my skills and projects. It offers a minimalist yet captivating design, allowing visitors to explore my work and expertise with ease and elegance." link1='https://akshat-o5.github.io/Personal_Portfolio/' link2='https://github.com/akshat-o5/Personal_Portfolio' button="Live Demo" domain='Frontend Web Development' />
         </div> */}
-        {/* <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
+        <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
           <ProjectCard title="Digital Library Management System" description="While going through multiple projects of database management systems for libraries, I came up with my personally developed database schema, specially designed for a digital library. I have formulated some new designs such that effective data storage and data retrieval process takes place." link1='https://akshato2.hashnode.dev/digital-library-management-system' link2='https://github.com/akshat-o5/Digital-Library-Management-System' button="Hashnode Blog" domain='Database Management System' />
-        </div> */}
+        </div>
         {/* <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
           <div className="w-full max-w-[570px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px] shadow-lg shadow-gray-300">
             <h3 className="text-white pb-2 text-xl font-bold sm:text-2xl">Netflix Dataset Analysis</h3>

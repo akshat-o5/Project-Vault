@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaLinkedin, FaInstagram } from 'react-icons/fa';
 import Link from 'next/link';
-import ContactForm from '@/components/ContactForm';
+import ContactForm from '../components/ContactForm'
 
 
 function page() {

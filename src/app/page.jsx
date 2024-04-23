@@ -1,5 +1,5 @@
-import AboutCard from '@/components/AboutCard'
-import HeroOne from '@/components/HeroOne'
+import AboutCard from './components/AboutCard'
+import HeroOne from './components/HeroOne'
 import React from 'react'
 
 function Home() {

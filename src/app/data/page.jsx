@@ -1,4 +1,4 @@
-import ProjectCard from '@/components/ProjectCard'
+import ProjectCard from '../components/ProjectCard'
 import Link from 'next/link'
 import React from 'react'
 
@@ -37,9 +37,9 @@ function page() {
         {/* <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
           <ProjectCard title="Project Vault" description="Project Vault is a private platform dedicated to showcasing my personal projects, providing a curated space where I can exhibit my creations, innovations, and developments. It serves as a repository for my tech endeavors, allowing me to document, share, and reflect on my journey as a developer." link1='abc' link2='https://github.com/akshat-o5/Project-Vault' button="Live Demo" domain='Frontend Web Development' />
         </div> */}
-        {/* <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
+        <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
           <ProjectCard title="Cricket Stats Analysis" description="In this project, we analyse the Century dataset of Virat Kohli and predict differnt outcomes and conclusions based upon various patterns. Used python for effective data analysis." link1='https://akshato2.hashnode.dev/exploratory-data-analysis-century-analysis' link2='https://github.com/akshat-o5/Cricket-Stats-Analysis' button="Hashnode Blog" domain='Data Analysis' />
-        </div> */}
+        </div>
         {/* <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
           <ProjectCard title="Automart GraphQL API" description="This API provides access to a database of second-hand vehicles, allowing users to query and manipulate vehicle information. It offers endpoints to retrieve vehicle details based on various criteria such as type, brand, price range, and years of usage. Additionally, users can add, update, and delete vehicle entries in the database." link1='https://documenter.getpostman.com/view/23129267/2sA35Bd4zW' link2='https://github.com/akshat-o5/AutoMart-GraphQL-API' button="API Documentation" domain='Backend Web Development' />
         </div>
@@ -61,10 +61,10 @@ function page() {
         {/* <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
           <ProjectCard title="Personal Portfolio" description="My personal portfolio website, built using HTML, CSS, and JavaScript, is a sleek and interactive platform to showcase my skills and projects. It offers a minimalist yet captivating design, allowing visitors to explore my work and expertise with ease and elegance." link1='https://akshat-o5.github.io/Personal_Portfolio/' link2='https://github.com/akshat-o5/Personal_Portfolio' button="Live Demo" domain='Frontend Web Development' />
         </div> */}
-        <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
-          <ProjectCard title="Digital Library Management System" description="While going through multiple projects of database management systems for libraries, I came up with my personally developed database schema, specially designed for a digital library. I have formulated some new designs such that effective data storage and data retrieval process takes place." link1='https://akshato2.hashnode.dev/digital-library-management-system' link2='https://github.com/akshat-o5/Digital-Library-Management-System' button="Hashnode Blog" domain='Database Management System' />
-        </div>
         {/* <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
+          <ProjectCard title="Digital Library Management System" description="While going through multiple projects of database management systems for libraries, I came up with my personally developed database schema, specially designed for a digital library. I have formulated some new designs such that effective data storage and data retrieval process takes place." link1='https://akshato2.hashnode.dev/digital-library-management-system' link2='https://github.com/akshat-o5/Digital-Library-Management-System' button="Hashnode Blog" domain='Database Management System' />
+        </div> */}
+        <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
           <div className="w-full max-w-[570px] rounded-[20px] bg-gray-900 py-12 px-8 text-center md:py-[60px] md:px-[70px] shadow-lg shadow-gray-300">
             <h3 className="text-white pb-2 text-xl font-bold sm:text-2xl">Netflix Dataset Analysis</h3>
             <span className="bg-indigo-500 mx-auto mb-6 inline-block h-1 w-[90px] rounded"></span>
@@ -83,7 +83,7 @@ function page() {
         <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
           <ProjectCard title="Diwali Sales Analysis" description="In this project, we analyze Diwali sales data to predict outcomes and draw conclusions based on patterns. Our goals include enhancing customer experience through data-driven insights and boosting revenue." link1='https://drive.google.com/file/d/1S_bY28PybkgEsiI_8Pj9NJ9cB9d98B7u/view' link2='https://github.com/akshat-o5/Diwali-Sales-Analysis' button="Link to Dataset" domain='Data Analysis' />
         </div>
-        <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
+        {/* <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>
           <ProjectCard title="Resturant Finder" description="An interactive UI design of a resturant finder website which helps you find a resturant nearest to your location." link1='https://akshat-o5.github.io/Resturant-Finder/' link2='https://github.com/akshat-o5/Resturant-Finder' button="Live Demo" domain='Frontend Web Development' />
         </div>
         <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-4'>

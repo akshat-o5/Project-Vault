@@ -1,5 +1,5 @@
-import Dropdown from '@/components/Dropdown';
-import ProjectCard from '@/components/ProjectCard';
+import Dropdown from '../components/Dropdown';
+import ProjectCard from '../components/ProjectCard';
 import Link from 'next/link';
 import React from 'react';
 
