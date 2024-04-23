@@ -6,7 +6,7 @@ import Image from 'next/image'
 function AboutCard() {
   return (
     <div className="card">
-  <div className="img"> <Image src="/Hero.jpg" width={100} height={100} alt="Hero"></Image></div>
+  <div className="img"> <Image src="/hero.jpg" width={100} height={100} alt="Hero"></Image></div>
   <span>About Me</span>
   <p className="info">
 Meet Akshat Gupta: a skilled web developer specializing in backend technologies. With a relentless work ethic and a passion for all things tech, Akshat is dedicated to crafting innovative solutions and staying at the forefront of industry advancements.</p>
