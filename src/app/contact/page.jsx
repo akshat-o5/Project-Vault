@@ -29,7 +29,7 @@ function page() {
             <div className="grid md:grid-cols-2">
               <div className="h-full pr-6">
                 <p className="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-400">
-                We&apos;re here to answer your questions, address your concerns, and explore how NexGen Solutions can help elevate your business. Reach out to us using the information below, and let&apos;s start the conversation.
+                We welcome your feedback, suggestions, and collaboration opportunities at Project Vault! Whether you have ideas to enhance our projects, seek collaborations, or wish to discuss potential partnerships, we&apos;re eager to hear from you. Feel free to reach out to us through the contact form below or directly via email. Let&apos;s connect and explore how we can work together to bring innovative ideas to life and make a meaningful impact in the tech community.
                 </p>
                 <ul className="mb-6 md:mb-0">
                   <li className="flex">
