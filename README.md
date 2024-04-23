@@ -1,5 +1,7 @@
 # Project-Vault
 
+Project Vault is a private platform dedicated to showcasing my personal projects, providing a curated space where I can exhibit my creations, innovations, and developments. It serves as a repository for my tech endeavors, allowing me to document, share, and reflect on my journey as a developer.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
